@@ -836,10 +836,19 @@ margin-left: auto;
   border-color: #ABABAB;
 }
 .footer-home{
+  width: 1168px;
   display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 134px;
 }
 
 .footer-title{
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  width: 504px;
   color: #FCFCFC;
   font-family: Montserrat;
   font-size: 30px;
